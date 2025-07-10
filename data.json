@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "text": "What are the main components of a computer system and how do they work together?",
+        "category": ["11th Non-Medical", "12th Non-Medical", "General"]
+    },
+    {
+        "id": 2,
+        "text": "Explain the difference between renewable and non-renewable energy sources with examples.",
+        "category": ["10th", "11th Arts", "General"]
+    },
+    {
+        "id": 3,
+        "text": "What is photosynthesis and why is it important for life on Earth?",
+        "category": ["9th", "10th", "11th Medical", "12th Medical"]
+    },
+    {
+        "id": 4,
+        "text": "Describe the water cycle and its importance in maintaining Earth's climate.",
+        "category": ["9th", "10th", "General"]
+    },
+    {
+        "id": 5,
+        "text": "What are the fundamental principles of democracy and how do they function in society?",
+        "category": ["11th Arts", "12th Arts", "General"]
+    },
+    {
+        "id": 6,
+        "text": "Explain Newton's three laws of motion with real-world examples.",
+        "category": ["11th Non-Medical", "12th Non-Medical"]
+    },
+    {
+        "id": 7,
+        "text": "What is artificial intelligence and how is it changing various industries?",
+        "category": ["12th Non-Medical", "General"]
+    },
+    {
+        "id": 8,
+        "text": "Describe the causes and effects of climate change on global ecosystems.",
+        "category": ["10th", "11th Arts", "General"]
+    },
+    {
+        "id": 9,
+        "text": "What is the role of DNA in heredity and how does genetic variation occur?",
+        "category": ["11th Medical", "12th Medical"]
+    },
+    {
+        "id": 10,
+        "text": "Explain the economic concepts of supply and demand with practical examples.",
+        "category": ["11th Arts", "12th Arts"]
+    },
+    {
+        "id": 11,
+        "text": "Discuss the major causes and impacts of plastic pollution on marine life.",
+        "category": ["9th", "General"]
+    },
+    {
+        "id": 12,
+        "text": "Outline the key stages of human embryonic development.",
+        "category": ["12th Medical"]
+    },
+    {
+        "id": 13,
+        "text": "Explain the concept of blockchain technology and its potential applications beyond cryptocurrency.",
+        "category": ["12th Non-Medical"]
+    },
+    {
+        "id": 14,
+        "text": "Describe the process of globalization and its economic and cultural effects.",
+        "category": ["11th Arts"]
+    },
+    {
+        "id": 15,
+        "text": "What are seismic waves and how do they help us understand Earth's interior?",
+        "category": ["10th"]
+    },
+    {
+        "id": 16,
+        "text": "List five major rivers in India and their significance.",
+        "category": ["9th", "10th", "11th Arts"]
+    },
+    {
+        "id": 17,
+        "text": "Explain the process of respiration in living organisms.",
+        "category": ["9th", "10th", "11th Medical"]
+    },
+    {
+        "id": 18,
+        "text": "What is the difference between speed and velocity? Provide an example.",
+        "category": ["9th", "10th", "11th Non-Medical"]
+    },
+    {
+        "id": 19,
+        "text": "Discuss the importance of the Right to Education Act in India.",
+        "category": ["10th", "11th Arts", "12th Arts", "General"]
+    },
+    {
+        "id": 20,
+        "text": "Describe the structure and function of the human heart.",
+        "category": ["11th Medical", "12th Medical"]
+    },
+    {
+        "id": 21,
+        "text": "How does an electric motor work? Explain its basic principle.",
+        "category": ["10th", "11th Non-Medical", "12th Non-Medical"]
+    },
+    {
+        "id": 22,
+        "text": "What is the concept of Gross Domestic Product (GDP) and why is it important?",
+        "category": ["11th Arts", "12th Arts"]
+    },
+    {
+        "id": 23,
+        "text": "Explain the causes and impacts of the Industrial Revolution.",
+        "category": ["10th", "11th Arts", "12th Arts"]
+    },
+    {
+        "id": 24,
+        "text": "Differentiate between acids and bases with examples.",
+        "category": ["9th", "10th", "11th Non-Medical", "11th Medical"]
+    },
+    {
+        "id": 25,
+        "text": "What are literary devices? Give examples of metaphor and simile.",
+        "category": ["11th Arts", "12th Arts", "General"]
+    },
+    {
+        "id": 26,
+        "text": "Describe the structure of an atom, including its subatomic particles.",
+        "category": ["9th", "10th", "11th Non-Medical", "11th Medical"]
+    },
+    {
+        "id": 27,
+        "text": "Explain the concept of human rights and their significance.",
+        "category": ["11th Arts", "12th Arts", "General"]
+    },
+    {
+        "id": 28,
+        "text": "What is the role of the nervous system in the human body?",
+        "category": ["11th Medical", "12th Medical"]
+    },
+    {
+        "id": 29,
+        "text": "How does a simple machine make work easier? Give examples.",
+        "category": ["9th", "10th"]
+    },
+    {
+        "id": 30,
+        "text": "Discuss the impact of social media on modern society.",
+        "category": ["General", "11th Arts", "12th Arts"]
+    },
+    {
+        "id": 31,
+        "text": "Define programming language and name three common ones.",
+        "category": ["11th Non-Medical", "12th Non-Medical", "General"]
+    },
+    {
+        "id": 32,
+        "text": "What are fundamental duties according to the Indian Constitution?",
+        "category": ["11th Arts", "12th Arts"]
+    },
+    {
+        "id": 33,
+        "text": "Explain the process of digestion in humans.",
+        "category": ["9th", "10th", "11th Medical", "12th Medical"]
+    },
+    {
+        "id": 34,
+        "text": "Describe the various forms of energy with examples.",
+        "category": ["9th", "10th", "11th Non-Medical"]
+    },
+    {
+        "id": 35,
+        "text": "What is the significance of the United Nations?",
+        "category": ["11th Arts", "12th Arts", "General"]
+    },
+    {
+        "id": 36,
+        "text": "How does vaccination work to prevent diseases?",
+        "category": ["10th", "11th Medical", "12th Medical", "General"]
+    },
+    {
+        "id": 37,
+        "text": "Explain the concept of electric current and its units.",
+        "category": ["10th", "11th Non-Medical"]
+    },
+    {
+        "id": 38,
+        "text": "Discuss the major causes of poverty in developing countries.",
+        "category": ["11th Arts", "12th Arts"]
+    },
+    {
+        "id": 39,
+        "text": "What is the difference between weather and climate?",
+        "category": ["9th", "10th", "General"]
+    },
+    {
+        "id": 40,
+        "text": "Describe the main components and functions of a web browser.",
+        "category": ["General", "11th Non-Medical"]
+    },
+    {
+        "id": 41,
+        "text": "Explain the concept of 'zero' and its importance in mathematics.",
+        "category": ["9th", "General"]
+    },
+    {
+        "id": 42,
+        "text": "What were the main causes and consequences of World War I?",
+        "category": ["10th", "11th Arts", "12th Arts"]
+    },
+    {
+        "id": 43,
+        "text": "Describe the structure and roles of different types of cells (e.g., plant vs. animal).",
+        "category": ["9th", "10th", "11th Medical"]
+    },
+    {
+        "id": 44,
+        "text": "Explain Ohm's Law and its practical applications.",
+        "category": ["11th Non-Medical", "12th Non-Medical"]
+    },
+    {
+        "id": 45,
+        "text": "What is the concept of a balanced diet and why is it important?",
+        "category": ["9th", "General"]
+    },
+    {
+        "id": 46,
+        "text": "Discuss the significance of the Preamble to the Indian Constitution.",
+        "category": ["12th Arts"]
+    },
+    {
+        "id": 47,
+        "text": "How does the human eye work? Explain its basic structure.",
+        "category": ["10th", "11th Medical", "12th Medical", "11th Non-Medical", "12th Non-Medical"]
+    },
+    {
+        "id": 48,
+        "text": "What is a chemical reaction? Give an example of a common one.",
+        "category": ["9th", "10th"]
+    },
+    {
+        "id": 49,
+        "text": "Explain the process of evaporation and condensation.",
+        "category": ["9th", "General"]
+    },
+    {
+        "id": 50,
+        "text": "What is cyber security and why is it crucial in today's digital age?",
+        "category": ["General", "12th Non-Medical"]
+    }
+]

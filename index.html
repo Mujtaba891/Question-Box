@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="status-indicator" id="statusIndicator">
+        <span id="statusText">Active</span>
+    </div>
+
+    <div class="quiz-container">
+        <div class="header">
+            <h1>GHSS Larnoo Q's box</h1>
+        </div>
+
+        <!-- Student Information Form -->
+        <div id="studentForm" class="student-form">
+            <h2>Student Information</h2>
+            <div class="form-group">
+                <label for="studentName">Full Name:</label>
+                <input type="text" id="studentName" placeholder="Enter your full name" required autocomplete="name">
+            </div>
+            <div class="form-group">
+                <label for="studentEmail">Email:</label>
+                <input type="email" id="studentEmail" placeholder="Enter your email address" required autocomplete="email">
+            </div>
+            <div class="form-group">
+                <label for="studentClass">Your Class/Grade (for records):</label>
+                <input type="text" id="studentClass" placeholder="e.g., 10th Grade, CS101" required autocomplete="off">
+            </div>
+            <!-- New custom dropdown for question category selection -->
+            <div class="form-group">
+                <label>Choose Question Categories:</label>
+                <div class="custom-dropdown-container">
+                    <div class="selected-classes-display" id="selectedClassesDisplay">Select categories...</div>
+                    <button type="button" class="class-dropdown-toggle" id="classDropdownToggle">▼</button>
+                    <div class="class-options-container" id="classOptionsContainer">
+                        <!-- Checkboxes will be populated here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="startQuizBtn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quizSection" style="display: none;">
+            <div class="warning">
+                ⚠️ Warning: Switching tabs or apps will change your question!
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="student-info-display" id="studentInfoDisplay" style="display: none;">
+                <h3>Student Information</h3>
+                <p><strong>Name:</strong> <span id="displayName"></span></p>
+                <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+                <p><strong>Class:</strong> <span id="displayClass"></span></p>
+                <p><strong>Question Categories:</strong> <span id="displayCategories"></span></p>
+            </div>
+
+            <div class="question-counter" id="questionCounter">
+                Question 1 of 5
+            </div>
+
+            <div class="question-box">
+                <div class="question-text" id="questionText">
+                    Loading question...
+                </div>
+            </div>
+
+            <div class="answer-section">
+                <label for="answerInput">Your Answer:</label>
+                <textarea 
+                    id="answerInput" 
+                    class="answer-textarea" 
+                    placeholder="Type your answer here (minimum 5 characters)..."
+                    maxlength="500"
+                ></textarea>
+            </div>
+
+            <div class="button-group">
+                <button class="btn btn-primary" id="nextBtn">
+                    Next Question →
+                </button>
+                <button class="btn btn-secondary" id="submitBtn" style="display: none;">
+                    <span id="submitText">Submit Quiz</span>
+                    <span id="submitSpinner" class="loading-spinner" style="display: none;"></span>
+                </button>
+            </div>
+
+            <div id="completionMessage" class="completion-message" style="display: none;">
+                <h2>🎉 Quiz Completed!</h2>
+                <p>Your answers have been submitted successfully.</p>
+                <p>Thank you for taking the quiz!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
